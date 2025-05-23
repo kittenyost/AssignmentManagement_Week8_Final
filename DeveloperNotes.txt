@@ -1,0 +1,30 @@
+Student Name: Kathy Yost
+Date Submitted: May 23, 2025
+
+---
+PURPOSE OF CHANGE:
+Added a "Notes" field to the Assignment class to give users a place to store extra details about tasks.
+
+---
+SUMMARY OF CHANGES:
+- Updated Assignment constructor and properties to include Notes.
+- Adjusted ToString() output to show Notes.
+- Updated ConsoleUI to accept and display Notes.
+- Fixed IsOverdue() logic to skip completed tasks.
+
+---
+TDD PROCESS USED:
+- Wrote tests to confirm Notes were not saving.
+- Updated model and confirmed tests passed after changes.
+- Added coverage for overdue logic and null edge cases.
+
+---
+CHALLENGES OR DESIGN DECISIONS:
+- Needed to debug Git and push clean files.
+- Rebuilt Git history and excluded .vs folder.
+- Had to trace incomplete constructor logic that skipped Notes.
+
+---
+NEXT STEPS OR RECOMMENDATIONS:
+- Add edit support for Notes.
+- Consider using DTOs for API in future versions.
