@@ -1,38 +1,29 @@
-﻿### ✅ `MaintenancePlan.md`
-```markdown
-# Assignment Management System - Maintenance Plan
+﻿# Assignment Management System
 
-**Date:** May 27, 2025  
-**Author:** Kathy Yost  
+A console-based C# application that allows users to create, manage, and track assignments. This system supports adding due dates, priorities, notes, and marks tasks as completed. Designed with clean architecture and test-driven development principles.
 
-## Purpose
-This document outlines the maintenance strategy to ensure the long-term health and scalability of the Assignment Management System.
+---
 
-## Goals
-- Maintain clean, modular, and testable code.
-- Ensure documentation and tests remain current with code changes.
-- Minimize technical debt through regular review and refactoring.
+## ✨ Features
+- ✅ Add new assignments with title, description, due date, priority, and notes  
+- ✅ List all assignments or only incomplete ones  
+- ✅ Search assignments by title  
+- ✅ Update assignment title and description  
+- ✅ Mark assignments as complete  
+- ✅ Delete assignments  
 
-## Maintenance Tasks
+---
 
-### 🔄 Regular Reviews
-- **Quarterly Code Reviews**: Assess cyclomatic complexity and apply refactors to keep methods under complexity of 10.
-- **Dead Code Removal**: Identify and remove unused variables, methods, or classes.
-- **Documentation Updates**: Add or update XML comments on public classes and methods.
+## 🛠 Technologies Used
+- C# (.NET 9.0)  
+- xUnit for unit testing  
+- Moq for mocking in tests  
+- Visual Studio 2022  
 
-### 🧪 Testing Strategy
-- **Target Coverage**: Maintain 80%+ unit test coverage across all services and logic layers.
-- **Regression Tests**: Validate that fixed bugs remain resolved.
-- **CI/CD Integration** (future): Incorporate GitHub Actions or similar for automated test runs.
+---
 
-### 🐛 Bug Tracking
-- Document any new bugs as GitHub issues.
-- Label bugs by severity and expected fix time.
-- Resolve high-priority bugs within 7 days of reporting.
+## 🚀 How to Run the Project
 
-### 🧰 Logging and Debugging
-- Expand use of `IAppLogger` interface for all service layers.
-- Log method start/end for high-impact functions (e.g., AddAssignment, UpdateAssignment).
-
-## Summary
-This plan ensures that the Assignment Management System remains functional, user-friendly, and easy to enhance over time.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kittenyost/AssignmentManagement_Week8_Final.git
